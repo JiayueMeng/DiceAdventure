@@ -61,6 +61,7 @@ class DiceAdventureAgent:
         :param state: (dict) A 'Dice Adventure' game state
         :return: (string) An action from the action set
         """
+        
 
         # Update current level if needed
         if self.current_level is None or self.current_level != state['content']['gameData']['currLevel']:
